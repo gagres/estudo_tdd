@@ -1,0 +1,24 @@
+{
+  "name": "curso_tdd_na_pratica",
+  "version": "1.0.0",
+  "description": "Estudo de TDD com JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gagres/estudo_tdd.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Gabriel Giro <gabriel.giro.resende@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gagres/estudo_tdd/issues"
+  },
+  "homepage": "https://github.com/gagres/estudo_tdd#readme"
+}
