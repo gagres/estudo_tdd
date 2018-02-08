@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint ./src/*.js",
-    "prepush": "npm run lint && npm run test:coverage",
     "test": "node_modules/.bin/mocha tests/**/fizzbuzz.spec.js --require=babel-register",
     "test:tdd": "node_modules/.bin/mocha tests/fizzbuzz.spec.js --watch --require babel-register",
     "test:coverage": "nyc npm run test"
