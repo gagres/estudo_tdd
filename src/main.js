@@ -1,14 +1,6 @@
-const a = 2;
-const b = 4;
+const sum = (num1, num2) => num1 + num2;
+const sub = (num1, num2) => num1 - num2;
+const mult = (num1, num2) => num1 * num2;
+const div = (num1, num2) => (num2 === 0 ? 'Não é permitida a divisão por zero' : num1 / num2);
 
-const c = 'aasjgdahsgdahsgdahgsdjhagshdgasjhdgajshdgahsgdajshgdjahsgdhasgdjashgdjashgdhasd';
-
-function soma() {
-  return a + b + c;
-}
-
-soma();
-
-if (a === 2) {
-  console.log(a);
-}
+export { sum, sub, mult, div };
